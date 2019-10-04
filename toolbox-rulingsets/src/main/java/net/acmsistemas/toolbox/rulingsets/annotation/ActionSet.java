@@ -35,5 +35,8 @@ import java.lang.annotation.Target;
  * @author William Martínez Pomares
  */
 public @interface ActionSet {
+	/**
+	 * Name used to qualify actions. The actions can be identified as name.action
+	 */
 	String[] name() default {};
 }
